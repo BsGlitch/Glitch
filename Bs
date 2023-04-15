@@ -1,0 +1,8 @@
+-Subsrice To BsGlitch
+local InfiniteJumpEnabled=true
+game:GetService("UserInputService").JumpRequest:connect(function()
+if InfiniteJumpEnabled then
+game:GetService"Players".LocalPlayer.Charscter:FindFirstChildOfClass"Humanoid":Chang
+eState("Jumping")
+end
+end)
